@@ -1,0 +1,5 @@
+Display student information from student_data.txt file.
+ Number of student:2
+STT   ID        NAME                     GPA  Year Scholarship
+1     11        ta an huy                10   4    Full-ride scholarship
+2     12        nguyen thu huyen         9    3    Full-ride scholarship
