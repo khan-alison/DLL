@@ -50,7 +50,7 @@ void Transportations::displayAllVehicle(){
              << left << setw(10) << setfill(separator) << "ID"
              << left << setw(20) << setfill(separator) << "TYPE"
                 << left << setw(25) << setfill(separator) << "Name"
-             << left << setw(5) << setfill(separator) << "SPEED"
+             << left << setw(20) << setfill(separator) << "SPEED"
              << left << setw(25) << setfill(separator) << "PRODUCER"
              << left << setw(10) << setfill(separator) << "Scholarship"
              <<endl;
@@ -59,7 +59,7 @@ void Transportations::displayAllVehicle(){
                  << left << setw(10) << setfill(separator) << currentNode->getData().getId()
                  << left << setw(20) << setfill(separator) << currentNode->getData().getType()
                     << left << setw(25) << setfill(separator) << currentNode->getData().getName()
-                 << left << setw(5) << setfill(separator) << currentNode->getData().getSpeed()
+                 << left << setw(20) << setfill(separator) << currentNode->getData().getSpeed()
                  << left << setw(25) << setfill(separator) << currentNode->getData().getProducer()
                  << left << setw(10) << setfill(separator) << currentNode->getData().getScholarship() <<endl;
             currentNode=currentNode->getNext();

@@ -2,15 +2,14 @@
 #include "Transportations.h"
 
 int main() {
-    Transportations c("ICE2019A", 0);
+    Transportations c("THEHELL", 0);
     const char separator    = ' ';
 
     int choice = 0;
     while(1)
     {
-
-        cout<<"1. Add student" << endl;
-        cout<<"2. Remove student" << endl;
+        cout<<"1. Add vehicle" << endl;
+        cout<<"2. Remove vehicle" << endl;
         cout << "3. Search information " << endl;
         cout << "4. Update information"<<endl;
         cout << "5. Display information"<<endl;
@@ -24,12 +23,10 @@ int main() {
             cout << "ID: "; cin >> id;
             cout << "Name: ";
             cin.ignore(256, '\n'); getline(cin, name);
-            cout << "Type: ";
-            cin.ignore(256, '\n'); getline(cin, type);
+            cout << "Type: "; cin >> type;
             cout << "Speed: "; cin >> speed;
             cout << "Producer: "; cin >> producer;
             Vehicle s(id,type, name, speed, producer);
-
             c.add(s);
             cout << c.size() <<endl;
 
@@ -48,7 +45,7 @@ int main() {
                      << left << setw(10) << setfill(separator) << "ID"
                      << left << setw(25) << setfill(separator) << "NAME"
                         << left << setw(25) << setfill(separator) << "TYPE"
-                     << left << setw(10) << setfill(separator) << "Speed"
+                     << left << setw(20) << setfill(separator) << "Speed"
                      << left << setw(25) << setfill(separator) << "Producer"
                      << left << setw(10) << setfill(separator) << "Scholarship"
                      <<endl;
@@ -56,9 +53,8 @@ int main() {
                      << left << setw(10) << setfill(separator) << node->getData().getId()
                         << left << setw(25) << setfill(separator) << node->getData().getName()
                      << left << setw(25) << setfill(separator) << node->getData().getType()
-                     << left << setw(10) << setfill(separator) << node->getData().getSpeed()
+                     << left << setw(20) << setfill(separator) << node->getData().getSpeed()
                      << left << setw(25) << setfill(separator) << node->getData().getProducer()<<endl;
-//                     << left << setw(10) << setfill(separator) << node->getData().getScholarship() <<endl;
             }
         }else if(choice == 4){
             long oldId;
@@ -67,14 +63,12 @@ int main() {
             cin >> oldId;
                 cout<<"Enter new information of vehicle  whose you wanna update information" <<endl;
                 long id;
-
                 string name,type, producer;
                 double speed;
                 cout << "ID: "; cin >> id;
                 cout << "Name: ";
                 cin.ignore(256, '\n'); getline(cin, name);
-            cout << "Type: ";
-            cin.ignore(256, '\n'); getline(cin, type);
+                cout << "Type: ";cin >>type;
                 cout << "Speed: "; cin >> speed;
                 cout << "Producer: "; cin >> producer;
                 Vehicle s(id, type,name,  speed, producer);
