@@ -415,9 +415,8 @@ CMakeFiles/untitled.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/Class.h \
+  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/Transportations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
-  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/student.h \
-  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/Person.h \
-  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/node.h \
-  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/Student.h
+  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/Vehicle.h \
+  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/Object.h \
+  /Users/macos/Documents/Data\ Structure\ and\ Algorithms/dll/node.h

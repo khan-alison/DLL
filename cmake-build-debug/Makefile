@@ -129,30 +129,6 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-Class.o: Class.cpp.o
-.PHONY : Class.o
-
-# target to build an object file
-Class.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Class.cpp.o
-.PHONY : Class.cpp.o
-
-Class.i: Class.cpp.i
-.PHONY : Class.i
-
-# target to preprocess a source file
-Class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Class.cpp.i
-.PHONY : Class.cpp.i
-
-Class.s: Class.cpp.s
-.PHONY : Class.s
-
-# target to generate assembly for a file
-Class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Class.cpp.s
-.PHONY : Class.cpp.s
-
 Node.o: Node.cpp.o
 .PHONY : Node.o
 
@@ -177,53 +153,77 @@ Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
-Person.o: Person.cpp.o
-.PHONY : Person.o
+Object.o: Object.cpp.o
+.PHONY : Object.o
 
 # target to build an object file
-Person.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Person.cpp.o
-.PHONY : Person.cpp.o
+Object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Object.cpp.o
+.PHONY : Object.cpp.o
 
-Person.i: Person.cpp.i
-.PHONY : Person.i
+Object.i: Object.cpp.i
+.PHONY : Object.i
 
 # target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Person.cpp.i
-.PHONY : Person.cpp.i
+Object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Object.cpp.i
+.PHONY : Object.cpp.i
 
-Person.s: Person.cpp.s
-.PHONY : Person.s
+Object.s: Object.cpp.s
+.PHONY : Object.s
 
 # target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Person.cpp.s
-.PHONY : Person.cpp.s
+Object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Object.cpp.s
+.PHONY : Object.cpp.s
 
-Student.o: Student.cpp.o
-.PHONY : Student.o
+Transportations.o: Transportations.cpp.o
+.PHONY : Transportations.o
 
 # target to build an object file
-Student.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Student.cpp.o
-.PHONY : Student.cpp.o
+Transportations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Transportations.cpp.o
+.PHONY : Transportations.cpp.o
 
-Student.i: Student.cpp.i
-.PHONY : Student.i
+Transportations.i: Transportations.cpp.i
+.PHONY : Transportations.i
 
 # target to preprocess a source file
-Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Student.cpp.i
-.PHONY : Student.cpp.i
+Transportations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Transportations.cpp.i
+.PHONY : Transportations.cpp.i
 
-Student.s: Student.cpp.s
-.PHONY : Student.s
+Transportations.s: Transportations.cpp.s
+.PHONY : Transportations.s
 
 # target to generate assembly for a file
-Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Student.cpp.s
-.PHONY : Student.cpp.s
+Transportations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Transportations.cpp.s
+.PHONY : Transportations.cpp.s
+
+Vehicle.o: Vehicle.cpp.o
+.PHONY : Vehicle.o
+
+# target to build an object file
+Vehicle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Vehicle.cpp.o
+.PHONY : Vehicle.cpp.o
+
+Vehicle.i: Vehicle.cpp.i
+.PHONY : Vehicle.i
+
+# target to preprocess a source file
+Vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Vehicle.cpp.i
+.PHONY : Vehicle.cpp.i
+
+Vehicle.s: Vehicle.cpp.s
+.PHONY : Vehicle.s
+
+# target to generate assembly for a file
+Vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Vehicle.cpp.s
+.PHONY : Vehicle.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -258,18 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
-	@echo "... Class.o"
-	@echo "... Class.i"
-	@echo "... Class.s"
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"
-	@echo "... Person.o"
-	@echo "... Person.i"
-	@echo "... Person.s"
-	@echo "... Student.o"
-	@echo "... Student.i"
-	@echo "... Student.s"
+	@echo "... Object.o"
+	@echo "... Object.i"
+	@echo "... Object.s"
+	@echo "... Transportations.o"
+	@echo "... Transportations.i"
+	@echo "... Transportations.s"
+	@echo "... Vehicle.o"
+	@echo "... Vehicle.i"
+	@echo "... Vehicle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

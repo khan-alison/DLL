@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Class.h"
+#include "Transportations.h"
 
 int main() {
-    Class c("ICE2019A", 0);
+    Transportations c("ICE2019A", 0);
     const char separator    = ' ';
 
     int choice = 0;
@@ -17,16 +17,18 @@ int main() {
         cout << "0. Exit" << endl;
         cout << "Enter your choice:"; cin >> choice;
         if(choice==1) {
-            cout<<"Enter number of students in class " << c.getClassName()<<endl;
+            cout << "Enter number of students in class " << c.getRouteName() << endl;
             long id;
-            string name, y;
-            double gpa;
+            string name, type, producer;
+            double speed;
             cout << "ID: "; cin >> id;
             cout << "Name: ";
             cin.ignore(256, '\n'); getline(cin, name);
-            cout << "GPA: "; cin >> gpa;
-            cout << "Year: "; cin >> y;
-            Student s(id, name, gpa, y);
+            cout << "Type: ";
+            cin.ignore(256, '\n'); getline(cin, type);
+            cout << "Speed: "; cin >> speed;
+            cout << "Producer: "; cin >> producer;
+            Vehicle s(id,type, name, speed, producer);
 
             c.add(s);
             cout << c.size() <<endl;
@@ -36,51 +38,53 @@ int main() {
             cout << "ID: "; cin >> id;
             c.remove(id);
         }else if(choice == 3){
-            cout<<"Enter number of students in class " << c.getClassName()<<endl;
+            cout << "Enter number of students in class " << c.getRouteName() << endl;
             long id;
             cout << "ID: "; cin >> id;
-            Node* node = c.findStudent(id);
+            Node* node = c.findVehicle(id);
             if(node)
             {
                 cout << left << setw(6) << setfill(separator)
                      << left << setw(10) << setfill(separator) << "ID"
                      << left << setw(25) << setfill(separator) << "NAME"
-                     << left << setw(5) << setfill(separator) << "GPA"
-                     << left << setw(5) << setfill(separator) << "Year"
+                        << left << setw(25) << setfill(separator) << "TYPE"
+                     << left << setw(10) << setfill(separator) << "Speed"
+                     << left << setw(25) << setfill(separator) << "Producer"
                      << left << setw(10) << setfill(separator) << "Scholarship"
                      <<endl;
                 cout << left << setw(6) << setfill(separator)
                      << left << setw(10) << setfill(separator) << node->getData().getId()
-                     << left << setw(25) << setfill(separator) << node->getData().getName()
-                     << left << setw(5) << setfill(separator) << node->getData().getGPA()
-                     << left << setw(5) << setfill(separator) << node->getData().getYear()
-                     << left << setw(10) << setfill(separator) << node->getData().getScholarship() <<endl;
+                        << left << setw(25) << setfill(separator) << node->getData().getName()
+                     << left << setw(25) << setfill(separator) << node->getData().getType()
+                     << left << setw(10) << setfill(separator) << node->getData().getSpeed()
+                     << left << setw(25) << setfill(separator) << node->getData().getProducer()<<endl;
+//                     << left << setw(10) << setfill(separator) << node->getData().getScholarship() <<endl;
             }
         }else if(choice == 4){
             long oldId;
-            Student oldStd,newStd;
-            cout<<"Enter id of students in class whose you wanna update information" <<endl;
+            Vehicle oldStd,newStd;
+            cout<<"Enter id of vehicle in class whose you wanna update information" <<endl;
             cin >> oldId;
-                cout<<"Enter new information of students  whose you wanna update information" <<endl;
+                cout<<"Enter new information of vehicle  whose you wanna update information" <<endl;
                 long id;
 
-                string name, y;
-                double gpa;
+                string name,type, producer;
+                double speed;
                 cout << "ID: "; cin >> id;
                 cout << "Name: ";
                 cin.ignore(256, '\n'); getline(cin, name);
-                cout << "GPA: "; cin >> gpa;
-                cout << "Year: "; cin >> y;
-                Student s(id, name, gpa, y);
+            cout << "Type: ";
+            cin.ignore(256, '\n'); getline(cin, type);
+                cout << "Speed: "; cin >> speed;
+                cout << "Producer: "; cin >> producer;
+                Vehicle s(id, type,name,  speed, producer);
 
-                c.updateStudent(oldId,s);
+            c.updateVehicleInfo(oldId, s);
 
         }else if(choice == 5){
-            c.displayAllStudent();
+            c.displayAllVehicle();
 
-        }else if(choice == 5){
-//            Node node = c.getFirst();
-//            c.insertionSort(node);
+        }else if(choice == 6){
 
         }
         else if(choice ==0){
@@ -88,5 +92,4 @@ int main() {
         }
     }
     return 0;
-    //s
 }

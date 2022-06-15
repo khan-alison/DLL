@@ -6,23 +6,23 @@
 #define UNTITLED_NODE_H
 
 
-#include "Student.h"
+#include "Vehicle.h"
 
 using namespace std;
 
 class Node {
-private:Student data;
+private:Vehicle data;
     Node* next;
     Node* previous;
 
 public:
     Node();
     Node(const Node& c);
-    Node(Student data,Node* next,Node* previous);
+    Node(Vehicle data, Node* next, Node* previous);
     ~Node();
-    Student getData();
+    Vehicle getData();
 
-    void setData(Student data);
+    void setData(Vehicle data);
 
     Node *getNext() const;
 

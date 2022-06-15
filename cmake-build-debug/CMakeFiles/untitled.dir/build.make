@@ -83,47 +83,47 @@ CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macos/Documents/Data Structure and Algorithms/dll/main.cpp" -o CMakeFiles/untitled.dir/main.cpp.s
 
-CMakeFiles/untitled.dir/Person.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/Person.cpp.o: ../Person.cpp
-CMakeFiles/untitled.dir/Person.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/macos/Documents/Data Structure and Algorithms/dll/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Person.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Person.cpp.o -MF CMakeFiles/untitled.dir/Person.cpp.o.d -o CMakeFiles/untitled.dir/Person.cpp.o -c "/Users/macos/Documents/Data Structure and Algorithms/dll/Person.cpp"
+CMakeFiles/untitled.dir/Object.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Object.cpp.o: ../Object.cpp
+CMakeFiles/untitled.dir/Object.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/macos/Documents/Data Structure and Algorithms/dll/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Object.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Object.cpp.o -MF CMakeFiles/untitled.dir/Object.cpp.o.d -o CMakeFiles/untitled.dir/Object.cpp.o -c "/Users/macos/Documents/Data Structure and Algorithms/dll/Object.cpp"
 
-CMakeFiles/untitled.dir/Person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Person.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macos/Documents/Data Structure and Algorithms/dll/Person.cpp" > CMakeFiles/untitled.dir/Person.cpp.i
+CMakeFiles/untitled.dir/Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Object.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macos/Documents/Data Structure and Algorithms/dll/Object.cpp" > CMakeFiles/untitled.dir/Object.cpp.i
 
-CMakeFiles/untitled.dir/Person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Person.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macos/Documents/Data Structure and Algorithms/dll/Person.cpp" -o CMakeFiles/untitled.dir/Person.cpp.s
+CMakeFiles/untitled.dir/Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Object.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macos/Documents/Data Structure and Algorithms/dll/Object.cpp" -o CMakeFiles/untitled.dir/Object.cpp.s
 
-CMakeFiles/untitled.dir/Student.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/Student.cpp.o: ../Student.cpp
-CMakeFiles/untitled.dir/Student.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/macos/Documents/Data Structure and Algorithms/dll/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Student.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Student.cpp.o -MF CMakeFiles/untitled.dir/Student.cpp.o.d -o CMakeFiles/untitled.dir/Student.cpp.o -c "/Users/macos/Documents/Data Structure and Algorithms/dll/Student.cpp"
+CMakeFiles/untitled.dir/Vehicle.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Vehicle.cpp.o: ../Vehicle.cpp
+CMakeFiles/untitled.dir/Vehicle.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/macos/Documents/Data Structure and Algorithms/dll/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Vehicle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Vehicle.cpp.o -MF CMakeFiles/untitled.dir/Vehicle.cpp.o.d -o CMakeFiles/untitled.dir/Vehicle.cpp.o -c "/Users/macos/Documents/Data Structure and Algorithms/dll/Vehicle.cpp"
 
-CMakeFiles/untitled.dir/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Student.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macos/Documents/Data Structure and Algorithms/dll/Student.cpp" > CMakeFiles/untitled.dir/Student.cpp.i
+CMakeFiles/untitled.dir/Vehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Vehicle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macos/Documents/Data Structure and Algorithms/dll/Vehicle.cpp" > CMakeFiles/untitled.dir/Vehicle.cpp.i
 
-CMakeFiles/untitled.dir/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Student.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macos/Documents/Data Structure and Algorithms/dll/Student.cpp" -o CMakeFiles/untitled.dir/Student.cpp.s
+CMakeFiles/untitled.dir/Vehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Vehicle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macos/Documents/Data Structure and Algorithms/dll/Vehicle.cpp" -o CMakeFiles/untitled.dir/Vehicle.cpp.s
 
-CMakeFiles/untitled.dir/Class.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/Class.cpp.o: ../Class.cpp
-CMakeFiles/untitled.dir/Class.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/macos/Documents/Data Structure and Algorithms/dll/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Class.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Class.cpp.o -MF CMakeFiles/untitled.dir/Class.cpp.o.d -o CMakeFiles/untitled.dir/Class.cpp.o -c "/Users/macos/Documents/Data Structure and Algorithms/dll/Class.cpp"
+CMakeFiles/untitled.dir/Transportations.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Transportations.cpp.o: ../Transportations.cpp
+CMakeFiles/untitled.dir/Transportations.cpp.o: CMakeFiles/untitled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/macos/Documents/Data Structure and Algorithms/dll/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Transportations.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/Transportations.cpp.o -MF CMakeFiles/untitled.dir/Transportations.cpp.o.d -o CMakeFiles/untitled.dir/Transportations.cpp.o -c "/Users/macos/Documents/Data Structure and Algorithms/dll/Transportations.cpp"
 
-CMakeFiles/untitled.dir/Class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Class.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macos/Documents/Data Structure and Algorithms/dll/Class.cpp" > CMakeFiles/untitled.dir/Class.cpp.i
+CMakeFiles/untitled.dir/Transportations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Transportations.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/macos/Documents/Data Structure and Algorithms/dll/Transportations.cpp" > CMakeFiles/untitled.dir/Transportations.cpp.i
 
-CMakeFiles/untitled.dir/Class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Class.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macos/Documents/Data Structure and Algorithms/dll/Class.cpp" -o CMakeFiles/untitled.dir/Class.cpp.s
+CMakeFiles/untitled.dir/Transportations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Transportations.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/macos/Documents/Data Structure and Algorithms/dll/Transportations.cpp" -o CMakeFiles/untitled.dir/Transportations.cpp.s
 
 CMakeFiles/untitled.dir/Node.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Node.cpp.o: ../Node.cpp
@@ -142,18 +142,18 @@ CMakeFiles/untitled.dir/Node.cpp.s: cmake_force
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.o" \
-"CMakeFiles/untitled.dir/Person.cpp.o" \
-"CMakeFiles/untitled.dir/Student.cpp.o" \
-"CMakeFiles/untitled.dir/Class.cpp.o" \
+"CMakeFiles/untitled.dir/Object.cpp.o" \
+"CMakeFiles/untitled.dir/Vehicle.cpp.o" \
+"CMakeFiles/untitled.dir/Transportations.cpp.o" \
 "CMakeFiles/untitled.dir/Node.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.cpp.o
-untitled: CMakeFiles/untitled.dir/Person.cpp.o
-untitled: CMakeFiles/untitled.dir/Student.cpp.o
-untitled: CMakeFiles/untitled.dir/Class.cpp.o
+untitled: CMakeFiles/untitled.dir/Object.cpp.o
+untitled: CMakeFiles/untitled.dir/Vehicle.cpp.o
+untitled: CMakeFiles/untitled.dir/Transportations.cpp.o
 untitled: CMakeFiles/untitled.dir/Node.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt

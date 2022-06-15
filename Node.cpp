@@ -9,12 +9,12 @@
 #include <string.h>
 #include <cstring>
 #include <fstream>
-#include "Student.h"
+#include "Vehicle.h"
 
 
 using namespace std;
 Node::Node():data(),next(NULL),previous(NULL) {}
-Node::Node(Student data,Node* next,Node* previous):data(data),next(next),previous(previous) {
+Node::Node(Vehicle data, Node* next, Node* previous): data(data), next(next), previous(previous) {
 
 }
 
@@ -22,11 +22,11 @@ Node::~Node() {
 
 }
 
-Student Node::getData() {
+Vehicle Node::getData() {
     return data;
 }
 
-void Node::setData(Student data) {
+void Node::setData(Vehicle data) {
     Node::data = data;
 }
 
