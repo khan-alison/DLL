@@ -184,11 +184,8 @@ void Transportations::remove(int id ) {
             return;
         };
         cout << "Remove " << id << endl;
-
         node->getPrevious()->setNext(node->getNext());
         node->getNext()->setPrevious(node->getPrevious());
-//        Vehicle data = node->getData();
-
         numberOfObj--;
 
         node->setData(*stdPrt);
@@ -249,6 +246,8 @@ Node *Transportations::findVehicle(long id) {
 //                cout << b <<endl;
 
                 return currentNode;
+            }else{
+               cout << "This vehicle doesn't existed on data" <<endl;
             }
             currentNode=currentNode->getNext();
             index++;

@@ -47,11 +47,10 @@ int main() {
                         << left << setw(25) << setfill(separator) << "TYPE"
                      << left << setw(20) << setfill(separator) << "Speed"
                      << left << setw(25) << setfill(separator) << "Producer"
-                     << left << setw(10) << setfill(separator) << "Scholarship"
                      <<endl;
                 cout << left << setw(6) << setfill(separator)
                      << left << setw(10) << setfill(separator) << node->getData().getId()
-                        << left << setw(25) << setfill(separator) << node->getData().getName()
+                     << left << setw(25) << setfill(separator) << node->getData().getName()
                      << left << setw(25) << setfill(separator) << node->getData().getType()
                      << left << setw(20) << setfill(separator) << node->getData().getSpeed()
                      << left << setw(25) << setfill(separator) << node->getData().getProducer()<<endl;
